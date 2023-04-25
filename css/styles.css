@@ -1,8 +1,12 @@
 .navbar {
   background-color: #b1ffff;
   color: rgb(255, 255, 255);
+  font-family: 'Reenie Beanie', cursive;
 }
+.container-fluid{
+  font-family: 'Reenie Beanie', cursive;
 
+}
 
 /* RandomTab styling start */
 .page4 {
@@ -16,6 +20,8 @@
   font-size: 3rem;
   font-weight: 500;
   color: rgb(0, 0, 0);
+  font-family: 'Reenie Beanie', cursive;
+
 }
 
 .spookcontainer {
@@ -111,25 +117,16 @@
 /* RandomTab styling end */
 /*----------------------------------------------------------------------------------------*/
 
-/* Haley in Minecraft styling start */
+/* Screenshots styling start */
 
 .page1 {
   width: 100%;
   background-color: #000000;
   margin: 0% !important;
   padding: 0% !important;
-  font-family: 'Minecraft', sans-serif;
-                                              
-}
+  font-family: 'Reenie Beanie', cursive;
 
-.homeheader {
-  height: 20vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  align-content: center;
-  padding-top: 0px;
-  text-align: center;
+                                              
 }
 
 .title_lines {
@@ -140,6 +137,7 @@
   z-index: 1;
   text-align: center;
   color: rgb(255, 255, 255);
+
 }
 
 .title_lines h2 {
@@ -153,11 +151,11 @@
   position: absolute;
   top: 51%;
   overflow: hidden;
-  width: 30%;
+  width: 40%;
   height: 1px;
   content: '\a0';
   background-color: #f50d8d;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .title_lines:before {
@@ -167,7 +165,7 @@
 
 .portfoliocontainer {
   position: relative;
-  column-count: 3;
+  column-count: 4;
   padding: 0% 10% 0% 10%;
 }
 
@@ -181,7 +179,11 @@
   width: 100%;
 }
 
-/* Haley in Minecraft styling start */
+.portfolioimage:hover{
+  transform:scale(1.5);
+}
+
+/* Screenshots styling start */
 /*----------------------------------------------------------------------------------------*/
 
 /* CSS used to create animated background (for fun)*/
