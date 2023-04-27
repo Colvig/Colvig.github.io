@@ -3,7 +3,6 @@ tutorial here:
 https://levelup.gitconnected.com/create-a-pokedex-with-vanilla-js-7aa580d6c96b
 */
 
-
 * {
 	box-sizing: border-box;
 }
@@ -33,7 +32,7 @@ h1 {
 .pokemon {
 	background-color: #fdfdfd;
 	border-radius: 20px;
-	box-shadow: 0 3px 15px rgba(255, 0, 0, 0.5);
+	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
 	margin: 10px;
 	padding: 20px;
 	text-align: center;
