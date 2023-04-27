@@ -1,26 +1,25 @@
 .navbar {
-  background-color: #b1ffff;
   color: rgb(255, 255, 255);
   font-family: 'Reenie Beanie', cursive;
+  font-weight: bold;
 }
 .container-fluid{
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Rajdhani', sans-serif;
 
 }
 
-/* RandomTab styling start */
+/* mobs styling start */
 .page4 {
   box-sizing: border-box;
-  font-family: 'Minecraft', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
-
 .spooky {
   padding-top: 20px;
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
   color: rgb(0, 0, 0);
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Rajdhani', sans-serif;
 
 }
 
@@ -114,7 +113,7 @@
   height: 50px;
 }
 
-/* RandomTab styling end */
+/* mobs styling end */
 /*----------------------------------------------------------------------------------------*/
 
 /* Screenshots styling start */
@@ -124,7 +123,7 @@
   background-color: #000000;
   margin: 0% !important;
   padding: 0% !important;
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Rajdhani', sans-serif;
 
                                               
 }
@@ -149,7 +148,7 @@
 .title_lines:before,
 .title_lines:after {
   position: absolute;
-  top: 51%;
+  top: 40%;
   overflow: hidden;
   width: 40%;
   height: 1px;
