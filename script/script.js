@@ -2,31 +2,31 @@
 // top row
 const panels = document.querySelectorAll('.panel')
 panels.forEach(panel => {
-    panel.addEventListener('click' , () => {
-        removeActiveClasses()
-        panel.classList.add('active')
-    })
+  panel.addEventListener('click', () => {
+    removeActiveClasses()
+    panel.classList.add('active')
+  })
 
 })
 
 function removeActiveClasses() {
-    panels.forEach(panel => {
-        panel.classList.remove('active')
-    }) 
+  panels.forEach(panel => {
+    panel.classList.remove('active')
+  })
 }
 // bottom row
 const panels2 = document.querySelectorAll('.panel2')
 panels2.forEach(panel2 => {
-    panel2.addEventListener('click' , () => {
-        removeActiveClassesSecond()
-        panel2.classList.add('active')
-    })
+  panel2.addEventListener('click', () => {
+    removeActiveClassesSecond()
+    panel2.classList.add('active')
+  })
 
 })
 function removeActiveClassesSecond() {
-    panels2.forEach(panel2 => {
-        panel2.classList.remove('active')
-    }) 
+  panels2.forEach(panel2 => {
+    panel2.classList.remove('active')
+  })
 }
 // end page 3
 
@@ -40,13 +40,13 @@ const poke_container = document.getElementById('poke_container');
 const pokemons_number = 151;
 
 const fetchPokemons = async () => {
-	for (let i = 1; i <= pokemons_number; i++) {
-		await getPokemon(i);
-	}
+  for (let i = 1; i <= pokemons_number; i++) {
+    await getPokemon(i);
+  }
 };
 
 const getPokemon = async id => {
-  const url =`https://pokeapi.co/api/v2/pokemon/${id}`;
+  const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
   const res = await fetch(url);
   const pokemon = await res.json();
   createPokemonCard(pokemon);
@@ -68,13 +68,7 @@ const createPokemonCard = (pokemon) => {
   </div>
   `;
   pokemonEl.innerHTML = pokeInnerHTML;
-	poke_container.appendChild(pokemonEl);
+  poke_container.appendChild(pokemonEl);
 }
 
 fetchPokemons();
-
-
-
-function func() {
-	var type = str.toUpperCase();
-}
